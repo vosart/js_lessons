@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+header {
+    background-color: lightblue;
+    height: 30px;
+}
+nav {
+    /* border: 1px black; */
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav > a {
+    text-decoration: none;
+    color: black;
+    padding: 0 30px;
+    font-size: 20x;
+}
+.about_us {
+    display: flex;
+    justify-content: center;
+}
+.about_us-description {
+    display: flex;
+    flex-direction: column;
+
+}
+.about_us-description * {
+    padding: 5px;
+}
+img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    object-position: top;
+
+}
+span {
+    font-size: 15px;
+}
+.name {
+    color: red;
+}
+#skill {
+    color: green;
+}
+
+.mygame {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+}
+.mygame * {
+    text-align: center;
+}
+.mygame input, .mygame button {
+    border: none;
+    margin: 5px;
+    min-height: 30px;
+}
+.mygame button {
+    width: max-content;
+    background-color: lightgreen;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+.mygame input {
+    background-color: lightgray;
+    outline: none;
+}
+.choosed_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.choosed_block-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 650px;
+
+}
+.choosed_block-container > div {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: cornflowerblue;
+    align-items: center;
+
+}
+.choosed_element {
+    border: 3px solid black;
+}
