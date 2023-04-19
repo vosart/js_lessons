@@ -105,7 +105,11 @@ function getPosts() {
     .catch(err => console.log(err.message))
 }
 
-showPostsBTN.onclick = () => {getPosts()}
+
+// showPostsBTN.onclick = () => {getPosts()}
+getPosts()
+
+
 
 // function createPost(title, body, userId) {
 //     fetch("https://jsonplaceholder.typicode.com/posts", {
